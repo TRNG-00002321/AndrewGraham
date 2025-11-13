@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package Other;
+
 import java.util.Scanner;
 public class Pyramid {
 
