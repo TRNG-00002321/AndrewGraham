@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+  <head>
+
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 15px;
+      }
+      </style>
+
+    <meta charset="UTF-8" />
+    <title>Projects</title>
+  </head>
+  <body>
+    <table style="width:40%">
+        <th>Project</th>
+        <th>Information</th>
+          {% for key, value in result.items() %}
+          <tr>
+              <th> {{ key }} </th>
+              <td> {{ value }} </td>
+          </tr>
+          {% endfor %}
+        </table>
+
+    <a href="/home">home</a>
+    <br>
+    <a href="/contact">contact</a>
+    
+      
+
+  </body>
+</html>

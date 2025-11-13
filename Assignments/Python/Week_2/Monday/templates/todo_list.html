@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+  <head>
+
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 15px;
+      }
+      </style>
+
+    <meta charset="UTF-8" />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <table style="width:25%">
+      <th>Task</th>
+      <th>Status</th>
+        {% for key, value in result.items() %}
+        <tr>
+            <th> {{ key }} </th>
+            <td> {{ value }} </td>
+        </tr>
+        {% endfor %}
+      </table>
+    
+      <form action="http://127.0.0.1:8000/add" method="post" >
+        <p>Enter task to add:</p>
+        <input type="text" name="task" /> <br />
+        <input type="submit" value="ADD" /><br />
+      </form>
+  
+      <form action="http://127.0.0.1:8000/complete" method="post" >
+          <p>Enter task to comlpete:</p>
+          <input type="text" name="task" /> <br />
+          <input type="submit" value="UPDATE" /><br />
+      </form>
+  
+      <form action="http://127.0.0.1:8000/remove" method="post" >
+          <p>Enter task to remove:</p>
+          <input type="text" name="task" /> <br />
+          <input type="submit" value="REMOVE" /><br />
+        </form>
+
+  </body>
+</html>
