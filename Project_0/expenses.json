@@ -1,0 +1,9 @@
+{
+  "Expense 1": {
+    "user": "JDoe",
+    "amount": 100,
+    "description": "Description 1",
+    "date": "2020-05-14",
+    "status": "pending"
+  }
+}
