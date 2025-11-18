@@ -1,0 +1,10 @@
+
+2025-11-18 14:07:58,611- root - INFO - Activity started
+2025-11-18 14:08:06,990- root - INFO - Sign up attempt
+2025-11-18 14:08:16,231- root - WARNING - Attempted duplicate username
+2025-11-18 14:08:25,024- root - INFO - User created successfully
+2025-11-18 14:08:28,522- root - INFO - Login attempt
+2025-11-18 14:08:35,311- root - INFO - Login successful
+2025-11-18 14:08:37,504- root - INFO - Viewed expenses
+2025-11-18 14:08:38,638- root - INFO - Added expense
+2025-11-18 14:08:39,532- root - INFO - Logged out
