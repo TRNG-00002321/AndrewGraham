@@ -11,10 +11,14 @@ class Employee:
         self.__password = password
         self.expense_report = {}
 
-        #add employee to employees.json
         employees = json_handler.json_load("employees.json")
-        employees[username] = password
+        employees[username] = {name : self.expense_report}
         json_handler.json_dump("employees.json", employees)
+
+        #add employee to credentials.json
+        credentials = json_handler.json_load("credentials.json")
+        credentials[username] = password
+        json_handler.json_dump("credentials.json", credentials)
     #login checking credentials
     def login(self, username, password):
         if self.username == username and self.__password == password:
