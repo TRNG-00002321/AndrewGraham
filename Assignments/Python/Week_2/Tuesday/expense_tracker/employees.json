@@ -1,0 +1,35 @@
+{
+  "agraham": [
+    "Andrew",
+    "qwerty",
+    {
+      "boat": [
+        "agraham",
+        91000,
+        "big boat",
+        "2023-09-09",
+        "pending"
+      ],
+      "car": [
+        "agraham",
+        12000,
+        "new car",
+        "2020-09-12",
+        "pending"
+      ]
+    }
+  ],
+  "jdoe": [
+    "John",
+    "password",
+    {
+      "boat": [
+        "jdoe",
+        15000,
+        "yacht",
+        "2025-12-09",
+        "pending"
+      ]
+    }
+  ]
+}
