@@ -1,6 +1,6 @@
-package com.revature;
+package com.revature.model;
 
-public class Manager {
+public class Manager implements Comparable<Manager>{
 
     private String name;
     private String username;
@@ -52,4 +52,8 @@ public class Manager {
         return this.username.equals(username) && this.password.equals(password);
     }
 
+    @Override
+    public int compareTo(Manager o) {
+        return this.username.compareTo(o.username);
+    }
 }
