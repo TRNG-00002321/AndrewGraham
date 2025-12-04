@@ -4,7 +4,7 @@ package com.revature.dao;
 
 import com.revature.model.Manager;
 
-import java.util.List;
+import java.util.*;
 
 public interface ManagerDAO {
 
@@ -13,10 +13,23 @@ public interface ManagerDAO {
 
     public Manager getManager(String username);
 
-    public void save(Manager manager);
+    public Manager login();
 
-    public Manager update(String username);
+    public void signup();
 
-    public void delete(String username);
+    public List<String> getUsernames();
 
+    public List<ArrayList<Object>> getExpenses();
+
+    public List<ArrayList<Object>> getEmployeeExpenses();
+
+    public List<ArrayList<Object>> getPendingExpenses();
+
+    public void manageExpenses(String managerUsername);
+
+    public List<Object> generateReport();
+
+    public void logout();
+
+    public List<ArrayList<Object>> getProcessedExpenses();
 }

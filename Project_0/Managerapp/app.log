@@ -1,0 +1,22 @@
+2025-12-03 14:09:32,248 INFO [main] c.r.Main [Main.java:16] - test
+2025-12-03 14:09:51,407 INFO [main] c.r.Main [Main.java:16] - test
+2025-12-03 14:28:21,754 INFO [main] c.r.Main [Main.java:18] - -----Activity Started-----
+2025-12-03 22:15:06,746 INFO [main] c.r.Main [Main.java:18] - -----Activity Started-----
+2025-12-03 22:15:14,572 INFO [main] c.r.Main [Main.java:31] - login attempt
+2025-12-03 22:15:19,845 INFO [main] c.r.d.ManagerJDBC [ManagerJDBC.java:44] - got manager
+2025-12-03 22:15:25,861 INFO [main] c.r.Main [Main.java:36] - manager1logged in successfully
+2025-12-03 22:15:29,639 INFO [main] c.r.Main [Main.java:64] - viewed all expenses
+2025-12-03 22:16:37,444 INFO [main] c.r.Main [Main.java:84] - managed expenses
+2025-12-03 22:16:40,357 INFO [main] c.r.Main [Main.java:64] - viewed all expenses
+2025-12-03 22:16:51,304 INFO [main] c.r.Main [Main.java:79] - viewed pending expenses
+2025-12-03 22:17:11,511 INFO [main] c.r.Main [Main.java:88] - generated report
+2025-12-03 22:18:35,180 INFO [main] c.r.Main [Main.java:107] - -----Activity Ended-----
+2025-12-03 22:19:04,560 INFO [main] c.r.Main [Main.java:18] - -----Activity Started-----
+2025-12-03 22:19:09,895 INFO [main] c.r.Main [Main.java:31] - login attempt
+2025-12-03 22:19:13,757 INFO [main] c.r.d.ManagerJDBC [ManagerJDBC.java:44] - got manager
+2025-12-03 22:19:17,155 INFO [main] c.r.Main [Main.java:36] - manager2logged in successfully
+2025-12-03 22:19:29,076 INFO [main] c.r.Main [Main.java:88] - generated report
+2025-12-03 22:19:37,257 INFO [main] c.r.Main [Main.java:64] - viewed all expenses
+2025-12-03 22:19:51,888 INFO [main] c.r.Main [Main.java:73] - viewed employee expenses
+2025-12-03 22:20:02,125 INFO [main] c.r.Main [Main.java:68] - viewed processed expenses
+2025-12-03 22:21:11,055 INFO [main] c.r.Main [Main.java:107] - -----Activity Ended-----
